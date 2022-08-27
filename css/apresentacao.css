@@ -1,0 +1,50 @@
+.apresentacao {
+  color: var(--branco--principal);
+  padding: 3rem 0.5rem;
+}
+.apresentacao__h1 img {
+  width: 40%;
+}
+.apresentacao__h2 {
+  font-size: 30px;
+}
+.apresentacao__h3 {
+  font-weight: 200;
+}
+.apresentacao__p {
+  font-size: 15px;
+}
+.saiba__mais {
+  display: flex;
+  align-items: center;
+}
+.btn__saiba__mais {
+  width: 4.5%;
+}
+.descricao {
+  transition: 1s;
+  margin: 10px 20px;
+  font-size: 14px;
+  width: 75%;
+  padding: 0.5rem;
+  border-left: solid 1px var(--branco--principal);
+}
+.invisivel {
+  transition: 10s;
+  display: none;
+  color: #2d2e2e;
+  opacity: 0;
+}
+.girar {
+  transform: rotate(270deg);
+}
+.paragrafo__curriculo {
+  margin-top: 10px;
+  text-align: center;
+  border: solid 1px var(--azul-detalhes);
+  width: 70%;
+}
+.curriculo {
+  display: flex;
+  justify-content: center;
+}

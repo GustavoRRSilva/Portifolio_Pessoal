@@ -1,0 +1,47 @@
+:root{
+    --branco--principal:#FFFFFF;
+    --azul-detalhes:#006989;
+    --cinza-claro:#E2E2E2;
+}
+*{
+    font-family: 'Kanit', sans-serif;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    background-color: #2D2E2E;
+}
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+strong{
+    color: var(--azul-detalhes);
+}
+.nome-logo{
+    padding: 0.3rem 0.5rem;
+}
+.nome-logo{
+    font-size: 17px;
+}
+.menu-icone{
+    width: 70%;
+}
+.menu__item__link{
+    color: var(--branco--principal);
+    text-decoration: none;
+    background-color: var(--azul-detalhes);
+    border-radius: 6px;
+    padding: 0.3rem 0.5rem;
+    font-size: 12px;
+}
+.menu__lista{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-around;
+}
