@@ -1,6 +1,6 @@
 .apresentacao {
   color: var(--branco--principal);
-  padding: 3rem 0.5rem;
+  padding: 1rem 0.5rem;
 }
 .apresentacao__h1 img {
   width: 40%;
@@ -38,13 +38,13 @@
 .girar {
   transform: rotate(270deg);
 }
-.paragrafo__curriculo {
+.curriculo {
   margin-top: 10px;
   text-align: center;
-  border: solid 1px var(--azul-detalhes);
-  width: 70%;
+ display: flex;
+ justify-content: center;
 }
-.curriculo {
-  display: flex;
-  justify-content: center;
+.curriculo p {
+    border: solid 1px var(--azul-detalhes);
+    width: 70%;
 }
