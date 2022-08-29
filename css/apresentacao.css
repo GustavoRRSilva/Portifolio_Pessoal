@@ -1,6 +1,8 @@
 .apresentacao {
   color: var(--branco--principal);
   padding: 1rem 0.5rem;
+  margin-top: 10px;
+ 
 }
 .apresentacao__h1 img {
   width: 40%;
