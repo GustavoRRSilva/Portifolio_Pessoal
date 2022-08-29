@@ -44,4 +44,5 @@ strong{
     flex-direction: row;
     column-gap: 20px;
     justify-content: space-around;
+    margin-right:10px
 }
