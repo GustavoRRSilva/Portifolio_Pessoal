@@ -3,6 +3,7 @@
     color: var(--branco--principal);
     display: flex;
     align-items: center;
+    position: relative;
 }
 .paragrafo__trabalhos{
     writing-mode:vertical-rl;
@@ -12,7 +13,7 @@
     text-align: center;
     position: absolute;
 }
-.trabalhos__img{
+ .trabalhos__img{
     width: 35vw;
     border-radius: 20px 0 20px 0;
 }

@@ -4,8 +4,13 @@
   padding: 1rem 0.5rem;
   margin-top: 10px;
 }
-.apresentacao__h1 img {
+.apresentacao__h1{
+ text-align: center;
+ width: 100vw;
+}
+.apresentacao__imagem{
   width: 40%;
+
 }
 .apresentacao__h2 {
   font-size: 30px;

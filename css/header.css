@@ -30,6 +30,7 @@ strong{
     width: 70%;
 }
 .menu__item__link{
+    transition: 0.5s;
     color: var(--branco--principal);
     text-decoration: none;
     background-color: var(--azul-detalhes);
@@ -37,6 +38,11 @@ strong{
     padding: 0.3rem 0.5rem;
     font-size: 12px;
 }
+.menu__item__link:hover{
+    transition: 0.5s;
+    background-color: #004183;
+}
+
 .menu__lista{
     display: flex;
     flex-direction: row;
