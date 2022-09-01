@@ -1,0 +1,45 @@
+
+main{
+    margin-top: 40px;
+
+}
+.tecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tecnologias__texto{
+    text-align: center;
+    color: var(--azul-detalhes);
+   
+}
+.tecnologias-software{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    width: 50%;
+
+  }
+  .circulo{
+    position: absolute;
+    animation: circulo 1s  linear infinite ;
+    width: 81px;
+  }
+  .progresso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 57px;
+    width: 40px;
+  }
+  @keyframes circulo{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
