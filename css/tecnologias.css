@@ -4,10 +4,12 @@ main{
 
 }
 .tecnologias{
+  position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10vh;
 }
 .tecnologias__texto{
     text-align: center;
@@ -20,7 +22,8 @@ main{
     align-items: center;
     column-gap: 40px;
     flex-wrap: wrap;
-    width: 50%;
+    width: 70%;
+    padding: 0rem 1rem 2rem 1rem;
 
   }
   .circulo{
@@ -32,8 +35,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 57px;
+    margin-top: 34px;
     width: 40px;
+   padding: 10px;
   }
   @keyframes circulo{
     0%{
