@@ -1,0 +1,28 @@
+.fale-comigo{
+    font-size: 23px;
+    color: var(--branco--principal);
+    font-weight: 400;
+    text-align: center;
+}
+.conteudo{
+    background:linear-gradient(#1ABCFE,#006989);
+    border-radius: 9.8px;
+    padding: 1em;
+}
+label,input{
+    display: block;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+input,textarea{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #1abcfe;
+    padding: 0 0.5rem;
+    width: 35vw;
+    max-height: 10vh;
+}
+.enviar{
+    padding: 0.25em 1em;
+}
