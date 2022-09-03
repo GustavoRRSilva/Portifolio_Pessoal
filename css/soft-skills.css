@@ -20,13 +20,13 @@ margin-top: 20px;
     column-gap: 20px;
 }
 .barra__progresso{
-    animation:progresso 1s  linear ;
+    animation:progresso 2s  linear ;
 }
 @keyframes progresso{
     0%{
-        width: 0px;
+        opacity: 0;
     }
     100%{
-        width: 149px;
+        opacity: 1;
     }
 }

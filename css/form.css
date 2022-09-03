@@ -4,7 +4,6 @@ form{
     align-items: center;
     row-gap: 5px;
     padding: 0.5em;
-    margin-left: 10px;
 }
 label,input{
     display: block;
@@ -12,14 +11,23 @@ label,input{
     font-weight: 400;
     font-size: 0.9em;
 }
-input,textarea{
+.input,textarea{
     border: 1px solid #000000;
-    border-radius: 10px;
-    background-color: #1abcfe;
+    border-radius: 3px;
+    background-color: transparent;
     padding: 0 0.5rem;
     width: 35vw;
     max-height: 10vh;
+    transition: 1s;
 }
 .enviar{
     padding: 0em 0.5em;
 }
+.enviar:hover{
+    background-color: #1ABCFE;
+    transition: 1s;
+}
+.enviar:focus{
+    background-color: #1ABCFE;
+}
+

@@ -21,9 +21,10 @@ main{
     text-align: center;
 }
 .conteudo{
-    background:linear-gradient(#1ABCFE,#006989);
+    background-color:#006989;
     border-radius: 9.8px;
-    padding: 2em 2.3em;
+    padding: 2em 2.1em;
     width: 80vw;
+   
  
 }
