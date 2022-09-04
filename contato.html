@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/desenhos.css">
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/redes-sociais.css">
     <title>Contato</title>
 </head>
 
@@ -46,14 +47,26 @@
                 <div class="form">
                     <form action="" class="formulario">
                         <label for="Nome">Seu nome:*</label>
-                        <input type="text" name="" id="Nome" class="input">
+                        <input type="text" name="" id="Nome" class="input" required>
                         <label for="email">Seu email:*</label>
-                        <input type="email" name="" id="email" class="input">
-                        <label for="Mensagem">Mensagem</label>
-                        <textarea name="" id="" cols="30" rows="10" class="input"></textarea>
+                        <input type="email" name="" id="email" class="input" required>
+                        <label for="Mensagem">Mensagem*</label>
+                        <textarea name="" id="" cols="30" rows="10" class="input" required></textarea>
                         <input type="submit" value="Enviar" translate="no" class="enviar input">
                     </form>
                 </div>
+            </div>
+            <div class="redes-sociais">
+                <ul class="redes__sociais__lista">
+                    <li class="lista github"><a href="https://github.com/GustavoRRSilva"><img src="assets/contato_github.svg" alt="link do meu github"
+                                class="imagem__link"></a></li>
+
+                    <li class="lista linkedin"><a href="https://www.linkedin.com/in/gustavo-rodrigues-114526242/"><img src="assets/contato_linkedin.svg" alt="link do meu linkedin"
+                                class="imagem__link"></a></li>
+
+                    <li class="lista whtasapp"><a href="https://api.whatsapp.com/send?phone=5581985020591&text=Vim%20do%20seu%20portifolio%20na%20web%2C%20poderiamos%20conversar%3F"></a><img src="assets/contato_whatsapp.svg"
+                            alt="link do meu whatsapp" class="imagem__link"></li>
+                </ul>
             </div>
         </div>
     </main>

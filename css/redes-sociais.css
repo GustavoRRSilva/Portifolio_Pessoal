@@ -1,0 +1,13 @@
+.redes-sociais{
+    margin-top: 20px
+}
+
+.redes__sociais__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15px;
+}
+.imagem__link{
+    width: 40px;
+}
