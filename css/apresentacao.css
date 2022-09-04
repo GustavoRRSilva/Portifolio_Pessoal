@@ -1,16 +1,13 @@
-
 .apresentacao {
   color: var(--branco--principal);
   padding: 1rem 0.5rem;
   margin-top: 10px;
 }
-.apresentacao__h1{
- text-align: center;
- width: 100vw;
+.apresentacao__h1 {
+  text-align: center;
 }
-.apresentacao__imagem{
+.apresentacao__imagem {
   width: 40%;
-
 }
 .apresentacao__h2 {
   font-size: 30px;
@@ -41,10 +38,49 @@
 .curriculo {
   margin-top: 10px;
   text-align: center;
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .curriculo p {
-    border: solid 3px var(--azul-detalhes);
-    width: 70%;
+  border: solid 3px var(--azul-detalhes);
+  width: 70%;
+}
+@media screen and (min-width: 1024px) {
+  .apresentacao {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .apresentacao__imagem {
+    width: 40vw;
+  }
+  .apresentacao__h3 {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .apresentacao__h2 {
+    font-size: 80px;
+    font-weight: 500;
+  }
+  .apresentacao__p {
+    font-size: 30px;
+    font: 300;
+  }
+  .descricao {
+    width: 521px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .curriculo {
+    justify-content: left;
+    margin-top: 30px;
+  }
+  .curriculo p {
+    width: 100%;
+    font-size: 34px;
+    font-weight: 600;
+    border-width: 5px;
+  }
 }

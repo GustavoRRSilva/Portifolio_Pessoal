@@ -32,3 +32,26 @@
     width: 35vw;
     margin: 10px ;
 }
+@media screen and (min-width:1024px){
+    .projetos{
+        flex-wrap: nowrap;
+    }
+    .trabalhos__img{
+        width: 20vw;
+        border-radius: 20px 0 20px 0;
+    }
+    .trabalhos__paragrafo{
+        width:20vw;
+        font-size: 20px;
+    }
+    .projeto{
+        width: 20vw;
+        margin-left: 40px;
+    }
+    .paragrafo__trabalhos{
+      font-size: 40px;
+    }
+    .meus-trabalhos{
+        margin-top: 50px;
+    }
+}
