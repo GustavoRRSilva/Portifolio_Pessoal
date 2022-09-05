@@ -45,6 +45,13 @@
   border: solid 3px var(--azul-detalhes);
   width: 70%;
 }
+.curriculo a {
+  color: var(--azul-detalhes);
+  text-decoration: none;
+}
+.curriculo a:hover{
+  text-decoration: underline;
+}
 @media screen and (min-width: 789px) {
   .apresentacao {
     display: flex;

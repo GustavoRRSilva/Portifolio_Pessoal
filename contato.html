@@ -47,14 +47,17 @@
                         <img src="assets/linha.svg" alt="Desenho de uma linha " class="linha__form">
                     </div>
                     <div class="form">
-                        <form action="" class="formulario">
+                        <form action="https://api.staticforms.xyz/submit" class="formulario" method="post">
+                            <input type="hidden" name="accessKey" value="b1c454c4-4181-4ade-9515-5c1e427d928f">
+                            <input type="hidden" name="redirectTo" value="https://grand-rabanadas-c7e84f.netlify.app/contato.html">
                             <label for="Nome">Seu nome:*</label>
-                            <input type="text" name="" id="Nome" class="input" required>
+                            <input type="text" name="name" id="Nome" class="input" required>
                             <label for="email">Seu email:*</label>
-                            <input type="email" name="" id="email" class="input" required>
-                            <label for="Mensagem">Mensagem:*</label>
-                            <textarea name="" id="" cols="30" rows="10" class="input" required></textarea>
+                            <input type="email" name="email" id="email" class="input" required>
+                            <label for="Mensagem" >Mensagem:*</label>
+                            <textarea name="message" id="" cols="30" rows="10" class="input" required></textarea>
                             <input type="submit" value="Enviar" translate="no" class="enviar input">
+                            
                         </form>
                     </div>
                 </div>
