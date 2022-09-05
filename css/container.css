@@ -1,5 +1,6 @@
 .container{
-    width: 1336px;
+    max-width: 1336px;
+    width: 100%;
 }
 body{
     display: flex;
