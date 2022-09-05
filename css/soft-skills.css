@@ -30,3 +30,12 @@ margin-top: 20px;
         opacity: 1;
     }
 }
+@media screen and (min-width: 789px) {
+    .skills__descricao{
+      font-size: 1.5rem;
+      width: 13rem;
+    }
+    .barra__progresso{
+        width: 10rem;
+    }
+  }

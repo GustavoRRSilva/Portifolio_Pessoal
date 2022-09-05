@@ -47,3 +47,23 @@ main{
       transform: rotate(360deg);
     }
   }
+
+  @media screen and (min-width: 789px) {
+    .tecnologias-software{
+      width: 358px;
+      row-gap: 20px;
+    }
+    .tecnologias{
+      margin-top: 0;
+      padding-bottom: 3rem;
+    }
+    .circulo{
+      width: 100px;
+    }
+    .software{
+      transform: scale(1.2);
+    }
+    .tecnologias__texto{
+      font-size: 2rem;
+    }
+  }
