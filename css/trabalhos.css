@@ -32,20 +32,21 @@
     width: 35vw;
     margin: 10px ;
 }
-@media screen and (min-width:1024px){
+@media screen and (min-width:789px){
     .projetos{
         flex-wrap: nowrap;
+        overflow-x: scroll;
     }
     .trabalhos__img{
-        width: 20vw;
+        width: 300px;
         border-radius: 20px 0 20px 0;
     }
     .trabalhos__paragrafo{
-        width:20vw;
+        width:300px;
         font-size: 20px;
     }
     .projeto{
-        width: 20vw;
+        width: 300px;
         margin-left: 40px;
     }
     .paragrafo__trabalhos{

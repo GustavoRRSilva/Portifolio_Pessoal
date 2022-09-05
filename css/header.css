@@ -51,7 +51,7 @@ strong{
     justify-content: space-around;
     margin-right:10px
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width:789px) {
     .nome-logo{
         font-size: 25px;
     }

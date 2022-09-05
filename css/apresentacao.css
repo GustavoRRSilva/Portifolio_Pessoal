@@ -10,13 +10,13 @@
   width: 40%;
 }
 .apresentacao__h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .apresentacao__h3 {
   font-weight: 200;
 }
 .apresentacao__p {
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 .saiba__mais {
   display: flex;
@@ -27,7 +27,7 @@
 }
 .descricao {
   margin: 10px 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   width: 75%;
   padding: 0.5rem;
   border-left: solid 1px var(--branco--principal);
@@ -45,7 +45,7 @@
   border: solid 3px var(--azul-detalhes);
   width: 70%;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 789px) {
   .apresentacao {
     display: flex;
     flex-direction: row-reverse;
@@ -53,24 +53,24 @@
     align-items: center;
   }
   .apresentacao__imagem {
-    width: 40vw;
+    width:600px;
   }
   .apresentacao__h3 {
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 400;
   }
   .apresentacao__h2 {
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 500;
   }
   .apresentacao__p {
-    font-size: 30px;
+    font-size: 1.875rem;
     font: 300;
   }
   .descricao {
     width: 521px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 23px;
   }
   .curriculo {
@@ -79,8 +79,9 @@
   }
   .curriculo p {
     width: 100%;
-    font-size: 34px;
+    font-size: 2.125rem;
     font-weight: 600;
     border-width: 5px;
   }
+ 
 }
