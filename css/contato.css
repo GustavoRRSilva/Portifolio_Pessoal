@@ -28,3 +28,12 @@ main{
    
  
 }
+@media screen and (min-width:789px) {
+    .conteudo{
+        width: 1000px;
+    }
+    main{
+        height: auto;
+        margin-top: 40px;
+    }
+}

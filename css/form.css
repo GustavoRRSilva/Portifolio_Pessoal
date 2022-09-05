@@ -32,4 +32,15 @@ label,input{
 .enviar:focus{
     background-color: #1ABCFE;
 }
-
+@media screen and (min-width:789px) {
+    label,input{
+        font-size: 1.5rem;
+    }
+    .input,textarea{
+        width: 500px;
+    }
+    .enviar{
+        margin-top: 20px;
+        width: 400px;
+    }
+}

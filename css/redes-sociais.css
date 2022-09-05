@@ -11,3 +11,8 @@
 .imagem__link{
     width: 40px;
 }
+@media screen and (min-width:789px) {
+    .imagem__link{
+        width: 50px;
+    }
+}
