@@ -1,16 +1,16 @@
-.linha__form{
-    width: 100%;
-    margin-left: 10px;
+.linha__form {
+  width: 100%;
+  margin-left: 10px;
 }
 .ilustracao__form {
-    width: 200px;
+  width: 200px;
 }
-@media screen and (min-width:789px) {
-    .ilustracao__form{
-        width: 400px;
-    }
-    .desenhos{
-        display: flex;
-        flex-direction: column;
-    }
+@media screen and (min-width: 789px) {
+  .ilustracao__form {
+    width: 400px;
+  }
+  .desenhos {
+    display: flex;
+    flex-direction: column;
+  }
 }

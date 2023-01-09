@@ -1,69 +1,65 @@
-
-main{
-    margin-top: 40px;
-
+main {
+  margin-top: 40px;
 }
-.tecnologias{
+.tecnologias {
   position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vh;
 }
-.tecnologias__texto{
-    text-align: center;
-    color: var(--azul-detalhes);
-   
+.tecnologias__texto {
+  text-align: center;
+  color: var(--azul-detalhes);
 }
-.tecnologias-software{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 40px;
-    flex-wrap: wrap;
-    width: 70%;
-    padding: 0rem 1rem 2rem 1rem;
+.tecnologias-software {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+  flex-wrap: wrap;
+  width: 70%;
+  padding: 0rem 1rem 2rem 1rem;
+}
+.circulo {
+  position: absolute;
+  animation: circulo 1s linear 100ms;
+  width: 81px;
+}
+.progresso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 34px;
+  width: 40px;
+  padding: 10px;
+}
+@keyframes circulo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
+@media screen and (min-width: 789px) {
+  .tecnologias-software {
+    width: 358px;
+    row-gap: 20px;
   }
-  .circulo{
-    position: absolute;
-    animation: circulo 1s  linear 100ms;
-    width: 81px;
+  .tecnologias {
+    margin-top: 0;
+    padding-bottom: 3rem;
   }
-  .progresso{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 34px;
-    width: 40px;
-   padding: 10px;
+  .circulo {
+    width: 100px;
   }
-  @keyframes circulo{
-    0%{
-      transform: rotate(0deg);
-    }
-    100%{
-      transform: rotate(360deg);
-    }
+  .software {
+    transform: scale(1.2);
   }
-
-  @media screen and (min-width: 789px) {
-    .tecnologias-software{
-      width: 358px;
-      row-gap: 20px;
-    }
-    .tecnologias{
-      margin-top: 0;
-      padding-bottom: 3rem;
-    }
-    .circulo{
-      width: 100px;
-    }
-    .software{
-      transform: scale(1.2);
-    }
-    .tecnologias__texto{
-      font-size: 2rem;
-    }
+  .tecnologias__texto {
+    font-size: 2rem;
   }
+}

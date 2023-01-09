@@ -1,61 +1,61 @@
-:root{
-    --branco--principal:#FFFFFF;
-    --azul-detalhes:#006989;
-    --cinza-claro:#E2E2E2;
+:root {
+  --branco--principal: #ffffff;
+  --azul-detalhes: #006989;
+  --cinza-claro: #e2e2e2;
 }
-*{
-    font-family: 'Kanit', sans-serif;
-    margin:0;
-    padding: 0;
-    list-style-type: none;
+* {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
-body{
-    background-color: #2D2E2E;
+body {
+  background-color: #2d2e2e;
 }
-header{
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    padding: 0.5rem;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
 }
-strong{
-    color: var(--azul-detalhes);
+strong {
+  color: var(--azul-detalhes);
 }
-.nome-logo{
-    font-size: 14px;
-    padding: 0.3rem 0.5rem;
+.nome-logo {
+  font-size: 14px;
+  padding: 0.3rem 0.5rem;
 }
-.menu-icone{
-    width: 70%;
+.menu-icone {
+  width: 70%;
 }
-.menu__item__link{
-    transition: 0.5s;
-    color: var(--branco--principal);
-    text-decoration: none;
-    background-color: var(--azul-detalhes);
-    border-radius: 6px;
-    padding: 0.3rem 0.5rem;
-    font-size: 12px;
+.menu__item__link {
+  transition: 0.5s;
+  color: var(--branco--principal);
+  text-decoration: none;
+  background-color: var(--azul-detalhes);
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  font-size: 12px;
 }
-.menu__item__link:hover{
-    transition: 0.5s;
-    background-color: #004183;
+.menu__item__link:hover {
+  transition: 0.5s;
+  background-color: #004183;
 }
 
-.menu__lista{
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-    justify-content: space-around;
-    margin-right:10px
+.menu__lista {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: space-around;
+  margin-right: 10px;
 }
-@media screen and (min-width:789px) {
-    .nome-logo{
-        font-size: 25px;
-    }
-    .menu__item__link{
-        font-size: 18px;
-    }
+@media screen and (min-width: 789px) {
+  .nome-logo {
+    font-size: 25px;
+  }
+  .menu__item__link {
+    font-size: 18px;
+  }
 }
