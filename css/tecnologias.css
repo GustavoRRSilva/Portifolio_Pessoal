@@ -28,7 +28,7 @@ main{
   }
   .circulo{
     position: absolute;
-    animation: circulo 1s  linear infinite ;
+    animation: circulo 1s  linear 100ms;
     width: 81px;
   }
   .progresso{
